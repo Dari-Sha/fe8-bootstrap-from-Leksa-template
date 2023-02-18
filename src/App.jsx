@@ -1,11 +1,10 @@
-import React from "react";
-import Logo from "./assets/logo.svg";
+import React, {useState} from "react"; 
+import BootstrapPage from "./components/BootstrapPage";
+import MuiPage from "./components/MuiPage";
 
 export default () => {
     return <>
-        <h1>
-            Simple React App
-            <img src={Logo} alt="React"/>
-        </h1>
+    <BootstrapPage/>
+    <MuiPage/>
     </>
 }

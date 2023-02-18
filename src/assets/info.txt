@@ -1,0 +1,35 @@
+npm - node package manager
+yarn - пакетный менеджер со стороны
+
+Работает только от имени админа:
+npm i yarn -g
+
+работая с ярн всегда используем cmd вместо powershell
+как поставить cmd - пишем к командной cmd
+
+проверка установки yarn 
+yarn --version
+
+npm install => 105 MB
+yarn install => меньше файлов, он проверяет зависимости и не добавляет лишние файлы
+yarn start - открыть приложение реакта в браузере
+
+остановка проекта ярн - Ctrl + C
+
+Bootstrap без реакта  (html/css)
+yarn add bootstrap -поставит последнюю версию бутстрапа
+
+https://react-bootstrap.github.io/
+
+add react bootstrap тк уже библиотека есть
+
+Иконки реакт бутстрап
+https://www.npmjs.com/package/react-bootstrap-icons
+
+yarn add react-bootstrap-icons
+
+orrr but wasn`t checked for now
+https://react-icons.github.io/react-icons
+
+https://mui.com/ react UI toolsyarn
+npm install @mui/material @emotion/react @emotion/styled
