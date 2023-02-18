@@ -27,7 +27,7 @@ export default () => {
     //     </div>
     // </div>
     return <Container className="bg-body min-vh-100">
-        <Row className="g-3 align-content-between min-vh-100">
+        <Row className="g-3 align-content-start min-vh-100">
             <Col as="header" xs={12}>
                 <Navbar className="bg-dark text-light p-3">
                     <Navbar.Brand href="" className="text-light">Site</Navbar.Brand>
